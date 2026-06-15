@@ -1,6 +1,6 @@
 @echo off
 cd /d "%~dp0"
 git add .
-git commit -m "SEO: canonical URL, Twitter Card, sitemap, robots.txt"
+git commit -m "Add Google Search Console verification"
 git push
 pause
