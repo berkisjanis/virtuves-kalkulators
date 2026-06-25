@@ -6,6 +6,7 @@ import HeroSection from '@/components/calculator/HeroSection';
 import AdBanner from '@/components/calculator/AdBanner';
 import CalculatorSection from '@/components/calculator/CalculatorSection';
 import InfoSection from '@/components/calculator/InfoSection';
+import ArticleSection from '@/components/calculator/ArticleSection';
 import FAQSection from '@/components/calculator/FAQSection';
 import FooterSection from '@/components/calculator/FooterSection';
 
@@ -52,6 +53,8 @@ export default function Home() {
         <AdBanner className="py-4 px-4" />
 
         <InfoSection />
+
+        <ArticleSection />
 
         <FAQSection />
       </main>

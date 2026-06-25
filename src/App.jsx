@@ -4,6 +4,7 @@ import { queryClientInstance } from '@/lib/query-client'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PageNotFound from './lib/PageNotFound';
 import Home from '@/pages/Home';
+import PrivacyPolicy from '@/pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/privatuma-politika" element={<PrivacyPolicy />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Toaster />

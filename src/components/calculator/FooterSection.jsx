@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChefHat } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function FooterSection() {
   const year = new Date().getFullYear();
@@ -28,6 +29,7 @@ export default function FooterSection() {
               <li><a href="#calculator" className="hover:text-primary transition-colors">Kalkulators</a></li>
               <li><a href="#info" className="hover:text-primary transition-colors">Mērvienību ceļvedis</a></li>
               <li><a href="#faq" className="hover:text-primary transition-colors">Biežāk uzdotie jautājumi</a></li>
+              <li><Link to="/privatuma-politika" className="hover:text-primary transition-colors">Privātuma politika</Link></li>
             </ul>
           </div>
 
